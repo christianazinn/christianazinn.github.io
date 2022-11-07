@@ -1,6 +1,6 @@
 # Christian Azinn's GitHub page
 
-Link to page: christianazinn.github.io
+Link to page: https://christianazinn.github.io
 
 This site hosts my Touhou guides and things I find cool, among other things I might put up in the future.
 
