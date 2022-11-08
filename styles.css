@@ -1,13 +1,26 @@
 @charset "UTF-8";
-@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-@font-face {
-    font-family: "Poppins";
-    src: url("https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z11lFc-K.woff2") format("woff2");
-}
 @viewport {
     width: device-width;
     zoom: 1.1;
     min-zoom: 0.4;
     max-zoom: 2;
     user-zoom: fixed;
+    }
+
+    body {
+        color: white;
+        background-color:#0a092d;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    a:link {
+        color: dodgerblue;
+    }
+
+    a:visited {
+        color: dodgerblue;
+    }
+
+    a:hover {
+        color: darkblue;
     }
