@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--TODO: refine-->
+
+<head>
+    <title>LLS Scoring: Mechanics</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css"> <!--make sure to change the paths-->
+</head>
+
+<body>
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="home.html"><strong>LLS Maingame Scoring Guide</strong></a>
+        <a href="../podd/home.html">PoDD Scoring Guide</a>
+        More coming soon!
+    </nav>
+
+    <nav>
+        <a href="home.html">Basics</a>
+        <a href="scoring.html"><strong>Scoring</strong></a>
+        <a href="route.html">Route</a>
+        <a href="stage1.html">Stage 1</a>
+        <a href="stage2.html">Stage 2</a>
+        <a href="stage3.html">Stage 3</a>
+        <a href="stage4.html">Stage 4</a>
+        <a href="stage5.html">Stage 5</a>
+        <a href="stage6.html">Stage 6</a>
+        <a href="jargon.html">Jargon</a>
+    </nav>
+    
+    <h1>Scoring Mechanics</h1>
+    <p>Lotus Land Story's score system is fairly simple as Touhou scoring systems go, but there are still a lot of ways to gain points. As such, I've compiled here a list of all ways to gain score in LLS. You don't have to know each of these by heart, but knowing the major methods of gaining score is crucial to understanding what's happening and why in the main guide.</p>
+
+    <nav>
+        <ul>
+            <li><a href="#major">Major Score Gains</a></li>
+            <ul>
+                <li><a href="#power">Power Items</a></li>
+                <li><a href="#point">Point Items and Dream Bonus</a></li>
+                <li><a href="#bomb">Bombs</a></li>
+                <li><a href="#cancel1">"High-tier" Cancels</a></li>
+                <li><a href="#graze">Graze</a></li>
+                <li><a href="#scb">Stage Clear Bonus</a></li>
+            </ul>
+            <li><a href="#minor">Minor Score Gains</a></li>
+            <ul>
+                <li><a href="#tick">Tick Points</a></li>
+                <li><a href="#cancel2">"Low-tier" Cancels</a></li>
+                <li><a href="#phase">Boss Phase Transitions</a></li>
+                <li><a href="#kuso">Marisa's Orbs</a></li>
+                <li><a href="#items">Other Items</a></li>
+            </ul>
+        </ul>
+    </nav>
+
+    <h2 id="major">Major Score Gains</h2>
+    <p>These are methods of gaining score that obtain a large amount of score over the course of the run, usually several millions or tens of millions of points. Each of these is crucial to getting a high score.</p>
+
+    <h3 id="power"><span style="color:red">Power Items</span></h3>
+    <p>There are two types of power items, regular and super, that are dropped by stage enemies at random or by killing a boss phase below full power. Regular power items advance your power level by 1, and a super by 10, up until full power at 127 power; both are worth a mere 10 points below full power. At full power, the power item value goes 10, 20... 90, 100, 200... 900, 1,000, 1,500... 12,000, 12,500, 12,800;  successive regular power items collected increase the power item value by 1 step, and supers by 5 steps, and dying resets the power item value. It does not change with screen location, and at max power item value, super power items are collected for double (25,600).</p>
+
+    <h3 id="point"><span style="color:blueviolet">Point Items</span> and <span style="color:blue">Dream Bonus</span></h3>
+    <p>Point items are a large source of score in the game, and they are tied to a mechanic called the Dream Bonus. Point items are dropped by stage enemies at random or by killing a boss phase at full power. The base point item value (PIV) is 51,200, and point items collected above a certain point on the screen are collected for this maximum value. Below this threshold, point item value linearly decreases with height, down to a very small value (~8,000 points) at the very bottom.</p>
+    <p>There are also special Dream items, which are dropped by stage enemies as well, and these increase the Dream bonus you see on the right side of the screen. The Dream bonus goes 0, 1,000, 2,000, 4,000, 6,000... 12,000, 12,800, and each dream item increases it by one level, while dying decreases it by one level. It also resets on each stage transition. The current Dream bonus is added onto the value of every point item, regardless of where it is collected on screen. There are a limited amount of Dream items that drop in each stage, and with intentional suicides, you may not always have maximum Dream by the end of the stage.</p>
+    <p>For example, collecting a point item for a base of 16,000 points with a Dream bonus of 2,000 points will actually grant 18,000 points, and collecting a point item for a base of 51,200 points with the same Dream bonus will grant 53,200 points.</p>
+
+    <h3 id="bomb">Bombs</h3>
+    <p>A bomb, when used, will magnet all items on screen to your location and collect them at double value, whatever their value is at your location; because of this, planned score bombs are vital to scoring. </p><p>The attraction is not instant; if the bomb runs out while the item is still coming towards you, it will stop and begin to fall as usual. This is most noticeable in two sections in stage 4: the opener and the semicircle of dolls near the end.</p>
+
+    <h3 id="cancel1">"High-tier" Bullet Cancels</h3>
+    <p>When you kill a boss or midboss, all the bullets on the screen are cancelled and you get a bonus proportional to how many bullets are cancelled. Each successive bullet cancelled gives more score than the last, so getting large bullet cancels is vital to a good score - individual cancels can range from 1 million to over 5 million, and they add up to tens of millions of points over the whole run. Timing cancels is important with how fast bullets can disappear from the screen, and how the bullet cap can affect bullet count. Following is a table of individual bullet value dependent on its number:</p>
+
+    <table>
+        <tr>
+            <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th><th>6</th><th>7</th><th>8</th><th>9</th><th>10</th><th>11</th><th>12</th><th>13</th><th>14</th><th>15</th><th>16</th><th>17</th>
+        </tr>
+        <tr>
+            <td>10</td><td>20</td><td>60</td><td>130</td><td>230</td><td>360</td><td>520</td><td>710</td><td>930</td><td>1,180</td><td>1,460</td><td>1,770</td><td>2,110</td><td>2,480</td><td>2,880</td><td>3,310</td><td>3,770</td>
+        </tr>
+        <tr>
+            <th>18</th><th>19</th><th>20</th><th>21</th><th>22</th><th>23</th><th>24</th><th>25</th><th>26</th><th>27</th><th>28</th><th>29</th><th>30</th><th>31</th><th>32</th><th>33</th><th>34+</th>
+        </tr>
+        <tr>
+            <td>4,260</td><td>4,780</td><td>5,330</td><td>5,910</td><td>6,520</td><td>7,160</td><td>7,830</td><td>8,530</td><td>9,260</td><td>10,020</td><td>10,810</td><td>11,630</td><td>12,480</td><td>13,360</td><td>14,270</td><td>15,210</td><td>16,000</td>
+        </tr>
+    </table>
+
+    <p>Each bullet is worth the amount corresponding to its number (e.g. the first bullet is worth 10 points, the second is worth 20... the 34th is worth 16,000, the 35th is worth 16,000...) and the total cancel bonus is the sum of each of the bullets' individual worths.</p>
+
+    <h3 id="graze">Graze</h3>
+    <p>When you get near a bullet but don't get hit by it, the game counts that bullet as "grazed," and increments the graze counter. Each bullet can only be grazed once, and the counter caps at 999 per stage and resets on stage transitions. Each graze point gives a fixed amount of score directly, depending on the difficulty: <span style="color:greenyellow">1,000</span>/<span style="color: aqua">2,500</span>/<span style="color:magenta">4,000</span>/<span style="color:red">5,000</span>/<span style="color:crimson">25,600</span>. Graze also plays a role in the Stage Clear Bonus, discussed next.</p>
+
+    <h3 id="scb">Stage Clear Bonus</h3>
+    <p>When you complete a stage by killing the boss, you are awarded a bonus based on what you did in the stage (timing out the boss's final phase will invalidate the clear bonus). This bonus is calculated as follows: <br><br><span style="color:orange">(<span style="color:red">Stage number * 1000 + Power level * 100 + Graze * 50 + Dream bonus</span>) * Point items * Difficulty modifier</span><br><br>
+    The only exception to this rule is the Stage 6 clear bonus, which replaces the stage bonus with a flat "all clear" bonus of 10,000 and adds an extra term to the red part of the formula of <span style="color:red">(remaining lives * 10,000)</span>. The point item multiplier is the number of point items you picked up during the stage, and the difficulty modifier changes based on difficulty: <span style="color:greenyellow">0.5</span>/<span style="color: aqua">1.0</span>/<span style="color:magenta">1.2</span>/<span style="color:red">1.4</span>/<span style="color:crimson">2.0</span>.</p>
+
+    <h2 id="minor">Minor Score Gains</h2>
+    <p>These are methods of gaining score that gain a negligible amount of score over the course of the run, usually below a million or two. These are negligible enough that you really don't need to worry about them when starting out, and for a fairly long time.</p>
+
+
+    <h3 id="tick">Tick Points</h3>
+    <p>Tick points, or shooting score, are the points you get from having your shots land on an enemy or killing an enemy. The tick points are generally in the range of thousands of points per second for hitting shots or a thousand or so points on an enenmy kill, which are almost negligible numbers. However, in cases where you can farm tick points for little to no risk, there's no reason not to do so (e.g. Elly's scythe).</p>
+
+    <h3 id="cancel2">"Low-tier" Bullet Cancels</h3>
+    <p>The lesser of two types of bullet cancels, "low-tier" bullet cancels refer to the score gained from cancelling bullets when you die, bomb, gain full power, or a boss changes phases. In this case, each bullet on screen that is cancelled grants 1,000 points, and each bullet that attempts to spawn but is cancelled (e.g. during a bomb or death iframes) grants 100 points. Usually fairly negligible, but there are some cases in which you can gain a decent amount of points, such as the stage 6 final rings power cancel. </p>
+
+    <h3 id="phase">Boss Phase Transitions</h3>
+    <p>Every time you shoot down a boss phase, it drops five <span style="color:blueviolet">point</span> items (or <span style="color:red">power</span> items, if below full power; one is guaranteed to be a <span style="color:red">super power</span> item in this case), but it also grants a flat bonus, shown in yellow 12,800s that pop up around the boss. These add up to a decent amount of score over the course of the run, but considering that you should always get the same bonuses every run, it isn't something to worry about.</p>
+
+    <h3 id="kuso">Marisa's Orbs</h3>
+    <p>When playing as Reimu, you receive Marisa as the stage 4 boss, who periodically respawns destructible orbs that shoot attacks. Destroying an orb grants 50,000 points flat, which is not negligible but low enough to be ignored below high level scoring. Each wave spawns 4 orbs, and you can usually safely milk 9 waves before Marisa's timer (which is an oddity in and of itself) runs out. It's a little score bump, but not convenient below high level scoring, because of how RNG Marisa is and how easy it is to die to her.</p>
+
+    <h3 id="items">Other Items</h3>
+    <p>Items that are not <span style="color:blueviolet">point</span> or <span style="color:red">power</span> items, namely bomb, 1up, and full power items, grant a flat 1,000 points each upon collection.</p>
+
+</body>
+
+</html>
