@@ -24,3 +24,8 @@
     a:hover {
         color: darkblue;
     }
+
+    .tldr { 
+        margin-left: 40px; 
+        font-size: 18px;
+    }
