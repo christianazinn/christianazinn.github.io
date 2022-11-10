@@ -10,6 +10,8 @@
     body {
         color: white;
         background-color:#04040f;
+        margin-left: 40px;
+        margin-right: 40px;
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 
@@ -25,7 +27,22 @@
         color: darkblue;
     }
 
+    p {
+        margin-left: 20px;
+    }
+
     .tldr { 
-        margin-left: 40px; 
+        margin-left: 60px;
+        margin-right: 40px; 
         font-size: 18px;
+    }
+
+    .indent {
+        margin-left: 60px;
+        margin-right: 40px;
+    }
+
+    .minilist {
+        margin-left: 40px;
+        margin-right: 40px;
     }
