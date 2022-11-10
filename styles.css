@@ -31,10 +31,65 @@
         margin-left: 20px;
     }
 
+
+    .easy {
+        color:greenyellow;
+    }
+    .normal {
+        color:aqua;
+    }
+    .hard {
+        color:magenta;
+    }
+    .lunatic {
+        color:red;
+    }
+    .extra {
+        color:crimson;
+    }
+
+    .reimu {
+        color:red;
+    }
+    .marisa {
+        color:yellow;
+    }
+
+    .point {
+        color:blueviolet;
+    }
+    .power {
+        color:red;
+    }
+    .dream {
+        color:blue;
+    }
+
+    .bomb {
+        color:green;
+    }
+    .life {
+        color:coral;
+    }
+    .graze {
+        color:bisque;
+    }
+
+    .safe {
+        color:lawngreen;
+    }
+    .okina {
+        color:darksalmon;
+    }
+    .hard {
+        color:firebrick;
+    }
+
     .tldr { 
         margin-left: 60px;
         margin-right: 40px; 
         font-size: 18px;
+        color:lightgreen;
     }
 
     .indent {
